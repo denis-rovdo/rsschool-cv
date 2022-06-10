@@ -17,5 +17,5 @@
 - Git/GitHub
 - learn JS
 ## Language:
-- Russian - native speaker.
+
 - English - Pre-Intermediate.
