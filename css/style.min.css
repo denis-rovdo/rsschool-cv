@@ -1,0 +1,166 @@
+nav {
+    height: 50px;
+    background-color: #2e323b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3
+}
+
+nav .container {
+    padding: 0
+}
+
+nav .container .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none
+}
+
+nav .container .menu .menu_item .menu_link {
+    color: #fff
+}
+
+.sub_header {
+    background-color: #161b25;
+    height: 500px;
+    width: 100%
+}
+
+.sub_header .about_me {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.sub_header .photo {
+    margin: 90px 50px 0px 90px;
+    height: 330px
+}
+
+.sub_header .name {
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: left;
+    color: #fff
+}
+
+.sub_header .profession_dev {
+    background-color: #2e323b;
+    width: 435px
+}
+
+.sub_header .profession_dev .profession {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #fff;
+    margin: 50px 30px 0px 30px
+}
+
+.sub_header .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    height: 170px
+}
+
+.sub_header .contacts .contacts_information {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 20px
+}
+
+.sub_header .contacts .information_data {
+    color: #F0E68C;
+    font-size: 15px
+}
+
+.second_part {
+    height: 1000px;
+    width: 100%
+}
+
+.second_part .my_skill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly
+}
+
+.second_part .hobbies .text {
+    padding-left: 280px;
+    text-align: justify;
+    width: 790px
+}
+
+.education_link {
+    color: black
+}
+
+.basic {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-top: 50px
+}
+
+.third_part {
+    background-color: #2e323b;
+    height: 80px;
+    width: 100%
+}
+
+.third_part .down {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.third_part .down .github {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: 21px
+}
+
+.third_part .down .github .github_text {
+    margin: 8px 0px 0px 10px;
+    color: #fff
+}
+
+.third_part .down .year {
+    color: #fff;
+    margin-top: 26px
+}
