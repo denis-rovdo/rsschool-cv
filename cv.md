@@ -19,3 +19,23 @@
 ## Language:
 - Russian - native speaker.
 - English - Pre-Intermediate.
+## Code example:
+```
+const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+
+                        function showFamily(arr) {
+                           if(arr.length == 0) { return `Семья пуста`
+                        }else{
+                            let str = ''; 
+                            arr.forEach(function(item){
+                             
+                                str += `${item} `;
+                               
+                                 
+                            })
+                            return `Семья состоит из: ${str}`
+                        }
+                        }
+                        
+                        console.log(showFamily(family))
+```
